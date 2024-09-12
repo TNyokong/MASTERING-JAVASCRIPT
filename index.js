@@ -70,14 +70,69 @@ function greet(name){
 
 You pass the argument to the parameter
 
-
-
 */
 
+//EXEMINE THE DOCUMENT OBJECT
+
+//console.dir(document);
+//console.log(document.domain);
+//console.log(document.title);
+//document.title = "TPN";
+//console.log(document.body);
+//console.log(document.all[10]);
+//console.log(document.images)
+
+//SELECTORS
+//1. GETELEMENTBYID
+//console.log(document.getElementById('heder-title'));
+//let headerTitle = document.getElementById('header-title')
+//console.log(headerTitle)
+//headerTitle.textContent = "HELLO";
+//headerTitle.InnerText = "Goodbye";
+//headerTitle.innerHTML = "<>HELLO</>";
+//headerTitle.style.borderBottom = 'solid 3px #000';
+
+//GETELEMENTSBYCLASSNAME
+//let items = document.getElementsByClassName('listgroup-Item');
+//console.log(items[1]);
+//items[1].style.fontweight = "bold";
+
+/*for(let i = 0; i<items.length; i++){
+    items[i].style.backgroundColor = "#f4f4f4";    
+*/
+
+//GETELEMENTSBYTAGNAME
+//Works same as GETELEMENTBYCLASSNAME
+
+
+//QUERY SELECTOR
+//It grabs the first one
+
+//let header = document.querySelector('#maidheader')
+//header.syle.borderBottom = 'solid 4px #ccc';
+
+//let input document.querySelector("input");
+//input.value = "Hello World";
+//let submit = document.querySelector('input[type = "submit"]');
+//submit.value = "SEND";
+
+//let lastItem = document.querySelector('list-grouo-item: lastChild');
+//lastItem.computedStyleMap.color = 'blue';
+
+//QUERYSELECTORALL =Grabs everything 
 
 
 
 
 
 
- 
+
+
+
+
+
+
+
+
+
+
